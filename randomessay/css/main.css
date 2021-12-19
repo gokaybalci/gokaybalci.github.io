@@ -1,0 +1,25 @@
+.max-height {
+  min-height: 100vh;
+}
+body {
+  background: #373636;
+}
+.quote-container {
+  background: rgba(55, 54, 54, 0);
+}
+#generate-btn {
+  color: black !important;
+  background: #f0aa06 !important;
+  border-color: #373636 !important;
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+}
+#generate-btn:hover {
+  background: #f0aa06 !important;
+  border-color: white !important;
+  color: white !important;
+}
+.author {
+  color: #64b6ac;
+}

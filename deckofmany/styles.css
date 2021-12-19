@@ -1,0 +1,648 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-image: url('./img/wallpaper.jpg');
+}
+
+
+.center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button {
+    margin: 0 2px;
+}
+
+.cards-container {
+    width: 120%;
+    height: 400px;
+
+    max-width: 1255px;
+
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card {
+    flex: 1;
+    height: 100%;
+
+    margin: 1rem;
+
+    cursor: default;
+    perspective: 50vw;
+}
+
+.content-vizier {
+    height: 100%;
+
+    position: relative;
+
+
+    display: flex;
+    flex-direction: column;
+
+    background-image: url('./img/vizier.png');
+    background-position: center;
+    background-size: 105% 105%;
+
+
+    align-items: center;
+    justify-content: center;
+
+    transform-style: preserve-3d;
+    
+    transition: all 1s ease-in-out;
+}
+
+.content-sun {
+    height: 100%;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+
+    background-image: url('./img/sun.png');
+    background-position: center;
+    background-size: 105% 105%;
+
+    
+    align-items: center;
+    justify-content: center;
+
+    transform-style: preserve-3d;
+    
+    transition: all 1s ease-in-out;
+}
+
+.content-moon {
+    height: 100%;
+
+    position: relative;
+
+
+    display: flex;
+    flex-direction: column;
+
+    background-image: url('./img/moon.png');
+    background-position: center;
+    background-size: 105% 105%;
+
+    
+    align-items: center;
+    justify-content: center;
+
+    transform-style: preserve-3d;
+    
+    transition: all 1s ease-in-out;
+}
+
+
+.content-star {
+    height: 100%;
+
+    position: relative;
+
+
+    display: flex;
+    flex-direction: column;
+
+    background-image: url('./img/star.png');
+    background-position: center;
+    background-size: 105% 105%;
+
+    
+    align-items: center;
+    justify-content: center;
+
+    transform-style: preserve-3d;
+    
+    transition: all 1s ease-in-out;
+}
+
+.content-comet {
+    height: 100%;
+
+    position: relative;
+
+
+    display: flex;
+    flex-direction: column;
+
+    background-image: url('./img/comet.png');
+    background-position: center;
+    background-size: 105% 105%;
+
+    
+    align-items: center;
+    justify-content: center;
+
+    transform-style: preserve-3d;
+    
+    transition: all 1s ease-in-out;
+}
+
+.content-fates {
+    height: 100%;
+
+    position: relative;
+
+
+    display: flex;
+    flex-direction: column;
+
+    background-image: url('./img/fates.png');
+    background-position: center;
+    background-size: 105% 105%;
+
+    
+    align-items: center;
+    justify-content: center;
+
+    transform-style: preserve-3d;
+    
+    transition: all 1s ease-in-out;
+}
+
+
+.content-throne {
+    height: 100%;
+
+    position: relative;
+
+
+    display: flex;
+    flex-direction: column;
+
+    background-image: url('./img/throne.png');
+    background-position: center;
+    background-size: 105% 105%;
+
+    
+    align-items: center;
+    justify-content: center;
+
+    transform-style: preserve-3d;
+    
+    transition: all 1s ease-in-out;
+}
+
+.content-key {
+    height: 100%;
+
+    position: relative;
+
+
+    display: flex;
+    flex-direction: column;
+
+    background-image: url('./img/key.png');
+    background-position: center;
+    background-size: 105% 105%;
+
+    
+    align-items: center;
+    justify-content: center;
+
+    transform-style: preserve-3d;
+    
+    transition: all 1s ease-in-out;
+}
+
+
+.content-knight {
+    height: 100%;
+
+    position: relative;
+
+
+    display: flex;
+    flex-direction: column;
+
+    background-image: url('./img/knight.png');
+    background-position: center;
+    background-size: 105% 105%;
+
+    
+    align-items: center;
+    justify-content: center;
+
+    transform-style: preserve-3d;
+    
+    transition: all 1s ease-in-out;
+}
+
+.content-gem {
+    height: 100%;
+
+    position: relative;
+
+
+    display: flex;
+    flex-direction: column;
+
+    background-image: url('./img/gem.png');
+    background-position: center;
+    background-size: 105% 105%;
+
+    
+    align-items: center;
+    justify-content: center;
+
+    transform-style: preserve-3d;
+    
+    transition: all 1s ease-in-out;
+}
+
+.content-talons {
+    height: 100%;
+
+    position: relative;
+
+
+    display: flex;
+    flex-direction: column;
+
+    background-image: url('./img/talons.png');
+    background-position: center;
+    background-size: 105% 105%;
+
+    
+    align-items: center;
+    justify-content: center;
+
+    transform-style: preserve-3d;
+    
+    transition: all 1s ease-in-out;
+}
+
+.content-void {
+    height: 100%;
+
+    position: relative;
+
+
+    display: flex;
+    flex-direction: column;
+
+    background-image: url('./img/void.png');
+    background-position: center;
+    background-size: 105% 105%;
+
+    
+    align-items: center;
+    justify-content: center;
+
+    transform-style: preserve-3d;
+    
+    transition: all 1s ease-in-out;
+}
+
+.content-flames {
+    height: 100%;
+
+    position: relative;
+
+
+    display: flex;
+    flex-direction: column;
+
+    background-image: url('./img/flames.png');
+    background-position: center;
+    background-size: 105% 105%;
+
+    
+    align-items: center;
+    justify-content: center;
+
+    transform-style: preserve-3d;
+    
+    transition: all 1s ease-in-out;
+}
+
+.content-skull {
+    height: 100%;
+
+    position: relative;
+
+
+    display: flex;
+    flex-direction: column;
+
+    background-image: url('./img/skull.png');
+    background-position: center;
+    background-size: 105% 105%;
+
+    
+    align-items: center;
+    justify-content: center;
+
+    transform-style: preserve-3d;
+    
+    transition: all 1s ease-in-out;
+}
+
+.content-idiot {
+    height: 100%;
+
+    position: relative;
+
+
+    display: flex;
+    flex-direction: column;
+
+    background-image: url('./img/idiot.png');
+    background-position: center;
+    background-size: 105% 105%;
+
+    
+    align-items: center;
+    justify-content: center;
+
+    transform-style: preserve-3d;
+    
+    transition: all 1s ease-in-out;
+}
+
+.content-donjon {
+    height: 100%;
+
+    position: relative;
+
+
+    display: flex;
+    flex-direction: column;
+
+    background-image: url('./img/donjon.png');
+    background-position: center;
+    background-size: 105% 105%;
+
+    
+    align-items: center;
+    justify-content: center;
+
+    transform-style: preserve-3d;
+    
+    transition: all 1s ease-in-out;
+}
+
+.content-ruin {
+    height: 100%;
+
+    position: relative;
+
+
+    display: flex;
+    flex-direction: column;
+
+    background-image: url('./img/ruin.png');
+    background-position: center;
+    background-size: 105% 105%;
+
+    
+    align-items: center;
+    justify-content: center;
+
+    transform-style: preserve-3d;
+    
+    transition: all 1s ease-in-out;
+}
+
+.content-euryale {
+    height: 100%;
+
+    position: relative;
+
+
+    display: flex;
+    flex-direction: column;
+
+    background-image: url('./img/euryale.png');
+    background-position: center;
+    background-size: 105% 105%;
+
+    
+    align-items: center;
+    justify-content: center;
+
+    transform-style: preserve-3d;
+    
+    transition: all 1s ease-in-out;
+}
+
+.content-rogue {
+    height: 100%;
+
+    position: relative;
+
+
+    display: flex;
+    flex-direction: column;
+
+    background-image: url('./img/rogue.png');
+    background-position: center;
+    background-size: 105% 105%;
+
+    
+    align-items: center;
+    justify-content: center;
+
+    transform-style: preserve-3d;
+    
+    transition: all 1s ease-in-out;
+}
+
+.content-balance {
+    height: 100%;
+
+    position: relative;
+
+
+    display: flex;
+    flex-direction: column;
+
+    background-image: url('./img/balance.png');
+    background-position: center;
+    background-size: 105% 105%;
+
+    
+    align-items: center;
+    justify-content: center;
+
+    transform-style: preserve-3d;
+    
+    transition: all 1s ease-in-out;
+}
+
+.content-fool {
+    height: 100%;
+
+    position: relative;
+
+
+    display: flex;
+    flex-direction: column;
+
+    background-image: url('./img/fool.png');
+    background-position: center;
+    background-size: 105% 105%;
+
+    
+    align-items: center;
+    justify-content: center;
+
+    transform-style: preserve-3d;
+    
+    transition: all 1s ease-in-out;
+}
+
+
+.content-jester {
+    height: 100%;
+
+    position: relative;
+
+
+    display: flex;
+    flex-direction: column;
+
+    background-image: url('./img/jester.png');
+    background-position: center;
+    background-size: 105% 105%;
+
+    
+    align-items: center;
+    justify-content: center;
+
+    transform-style: preserve-3d;
+    
+    transition: all 1s ease-in-out;
+}
+
+
+
+
+.card:hover>.content-vizier {
+    transform: rotateY(180deg);
+}
+.card:hover>.content-sun {
+    transform: rotateY(180deg);
+}
+
+.card:hover>.content-moon {
+    transform: rotateY(180deg);
+}
+.card:hover>.content-star {
+    transform: rotateY(180deg);
+}
+.card:hover>.content-comet {
+    transform: rotateY(180deg);
+}
+.card:hover>.content-fates {
+    transform: rotateY(180deg);
+}
+.card:hover>.content-throne {
+    transform: rotateY(180deg);
+}
+.card:hover>.content-key {
+    transform: rotateY(180deg);
+}
+.card:hover>.content-knight {
+    transform: rotateY(180deg);
+}
+.card:hover>.content-gem {
+    transform: rotateY(180deg);
+}
+.card:hover>.content-talons {
+    transform: rotateY(180deg);
+}
+.card:hover>.content-void {
+    transform: rotateY(180deg);
+}
+.card:hover>.content-flames {
+    transform: rotateY(180deg);
+}
+.card:hover>.content-idiot {
+    transform: rotateY(180deg);
+}
+
+.card:hover>.content-skull {
+    transform: rotateY(180deg);
+}
+.card:hover>.content-donjon {
+    transform: rotateY(180deg);
+}
+.card:hover>.content-ruin {
+    transform: rotateY(180deg);
+}
+.card:hover>.content-euryale {
+    transform: rotateY(180deg);
+}
+.card:hover>.content-rogue {
+    transform: rotateY(180deg);
+}
+.card:hover>.content-balance {
+    transform: rotateY(180deg);
+}
+.card:hover>.content-fool {
+    transform: rotateY(180deg);
+}
+.card:hover>.content-jester {
+    transform: rotateY(180deg);
+}
+
+
+.front-content {
+    position: absolute;
+
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    backface-visibility: hidden;
+    transform: translateZ(3rem) rotateY(0deg);
+}
+
+.back-content {
+    position: absolute;
+    
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(7px);
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    backface-visibility: hidden;
+    transform: translateZ(-3rem) rotateY(180deg);
+}
+
+h1, h2 {
+    color: #fff;
+    font-size:1rem;
+}
+
+.logo{ 
+  position:fixed; 
+  bottom:0; 
+  right:0; 
+} 
