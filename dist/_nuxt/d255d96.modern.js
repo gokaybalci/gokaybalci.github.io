@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[78],{893:function(n,e,r){"use strict";r.r(e);var t={asyncData(n){var{redirect:e}=n;return e("/")}},d=r(5),component=Object(d.a)(t,undefined,undefined,!1,null,null,null);e.default=component.exports}}]);
